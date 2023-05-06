@@ -1,0 +1,78 @@
+aguva@LAPTOP-H490NOAO MINGW64 /g
+$ cd "Mi unidad"
+
+aguva@LAPTOP-H490NOAO MINGW64 /g/Mi unidad
+$ cd "ironhack"
+
+aguva@LAPTOP-H490NOAO MINGW64 /g/Mi unidad/ironhack
+$ cd "week_1"
+
+aguva@LAPTOP-H490NOAO MINGW64 /g/Mi unidad/ironhack/week_1
+$ mkdir IronAgustin
+
+aguva@LAPTOP-H490NOAO MINGW64 /g/Mi unidad/ironhack/week_1/IronAgustin (master)
+$ git init
+Initialized empty Git repository in G:/Mi unidad/ironhack/week_1/IronAgustin/.git/
+
+aguva@LAPTOP-H490NOAO MINGW64 /g/Mi unidad/ironhack/week_1/IronAgustin (master)
+$ touch about.txt
+
+aguva@LAPTOP-H490NOAO MINGW64 /g/Mi unidad/ironhack/week_1/IronAgustin (master)
+$ git add about.txt
+
+aguva@LAPTOP-H490NOAO MINGW64 /g/Mi unidad/ironhack/week_1/IronAgustin (master)
+$ git remote add origin https://github.com/aguvazsan/IronAgustin.git
+
+aguva@LAPTOP-H490NOAO MINGW64 /g/Mi unidad/ironhack/week_1/IronAgustin (master)
+$ git remote add origin https://github.com/aguvazsan/IronAgustin.git
+
+aguva@LAPTOP-H490NOAO MINGW64 /g/Mi unidad/ironhack/week_1/IronAgustin (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+aguva@LAPTOP-H490NOAO MINGW64 /g/Mi unidad/ironhack/week_1/IronAgustin (master)
+$ git push --set-upstream origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/aguvazsan/IronAgustin.git'
+
+aguva@LAPTOP-H490NOAO MINGW64 /g/Mi unidad/ironhack/week_1/IronAgustin (master)
+$ echo "# IronAgustin" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/aguvazsan/IronAgustin.git
+git push -u origin main
+Reinitialized existing Git repository in G:/Mi unidad/ironhack/week_1/IronAgustin/.git/
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+[master (root-commit) c1249f3] first commit
+ 2 files changed, 2 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 about.txt
+error: remote origin already exists.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/aguvazsan/IronAgustin.git/'
+
+
+aguva@LAPTOP-H490NOAO MINGW64 /g/Mi unidad/ironhack/week_1/IronAgustin (main)
+$ git commit
+On branch main
+nothing to commit, working tree clean
+
+aguva@LAPTOP-H490NOAO MINGW64 /g/Mi unidad/ironhack/week_1/IronAgustin (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 295 bytes | 49.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/aguvazsan/IronAgustin.git
+ * [new branch]      main -> main
+
